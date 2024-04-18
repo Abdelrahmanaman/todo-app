@@ -1,11 +1,11 @@
 import InputTask from "@/components/InputTask";
-import Image from "next/image";
+import TaskDisplay from "@/components/TaskDisplay";
 
 export default function Home() {
   return (
-    <main>
+    <div>
       <InputTask />
-      
-    </main>
+      <TaskDisplay />
+    </div>
   );
 }
